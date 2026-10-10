@@ -1,4 +1,4 @@
-# Virtual Mixer v1.0.2
+# Virtual Mixer v1.0.3
 
 Mix selected applications and your microphone into **Virtual Mix Output** for calls or recordings.
 
@@ -6,7 +6,7 @@ Mix selected applications and your microphone into **Virtual Mix Output** for ca
 
 ## Getting started
 
-1. Extract the whole downloaded ZIP and run **Virtual Mixer v1.0.exe**. Keep the accompanying files together. The app shows v1.0.2.
+1. Extract the whole downloaded ZIP and run **Virtual Mixer v1.0.exe**. Keep the accompanying files together. The app shows v1.0.3.
 2. Allow the Windows setup prompt if it appears.
 3. **Virtual Mix Output** becomes available while the app is open. Choose it as the microphone in your call or recording app.
 4. In **Audio Sources**, check the apps you want, such as NVDA and Brave. Their audio joins the mix immediately. Choose **Stream Everything** to include all sound from the selected playback device instead.
@@ -14,6 +14,8 @@ Mix selected applications and your microphone into **Virtual Mix Output** for ca
 6. Use **Ctrl+Q** or **File → Exit** when finished. Virtual Mix Output disconnects when the app exits.
 
 There are no Start or Stop buttons. With no apps or microphone selected, the output stays available and sends silence. Saved app and microphone choices take effect when you launch the app.
+
+Volume changes speak only the percentage. If a checked app closes, its unavailable entry stays checked; reopening it replaces that entry and resumes its audio automatically. Uncheck the unavailable entry to cancel this.
 
 You can add or remove apps at any time. Newly detected audio apps appear automatically; **Refresh Applications** refreshes the list.
 
@@ -24,7 +26,8 @@ You can add or remove apps at any time. Newly detected audio apps appear automat
 | Tab / Shift+Tab | Move between controls |
 | Up / Down in Audio Sources | Move between apps |
 | Space in Audio Sources | Add or remove the focused app from the stream |
-| Ctrl+Up / Ctrl+Down in Audio Sources | Raise or lower that app's volume by 5% |
+| Page Up / Page Down in Audio Sources | Raise or lower that app's volume by 1% |
+| Ctrl+Page Up / Ctrl+Page Down | Raise or lower that app's volume by 5% |
 | Ctrl+R | Refresh applications |
 | Ctrl+, | Open Settings |
 | Ctrl+I | Read the current status |
