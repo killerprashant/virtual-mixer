@@ -1,4 +1,4 @@
-# Virtual Mixer v1.0.3
+# Virtual Mixer v1.0.4
 
 Mix selected applications and your microphone into **Virtual Mix Output** for calls or recordings.
 
@@ -6,7 +6,7 @@ Mix selected applications and your microphone into **Virtual Mix Output** for ca
 
 ## Getting started
 
-1. Extract the whole downloaded ZIP and run **Virtual Mixer v1.0.exe**. Keep the accompanying files together. The app shows v1.0.3.
+1. Extract the whole downloaded ZIP and run **Virtual Mixer v1.0.exe**. Keep the accompanying files together. The app shows v1.0.4.
 2. Allow the Windows setup prompt if it appears.
 3. **Virtual Mix Output** becomes available while the app is open. Choose it as the microphone in your call or recording app.
 4. In **Audio Sources**, check the apps you want, such as NVDA and Brave. Their audio joins the mix immediately. Choose **Stream Everything** to include all sound from the selected playback device instead.
@@ -56,6 +56,6 @@ Press your shortcut to open the quick window while the main window is hidden. **
 
 Your settings and app volumes save automatically and return on the next launch.
 
-The app checks for updates on every launch by default. If a newer version is available, an update dialog opens. Choose **Download update**, then **Install and restart**. The mixer closes its audio session and restarts automatically. Your settings are kept.
+The app checks for updates on every launch by default. If a newer version is available, an update dialog opens. Choose **Download update**. While downloading, only a progress bar and **Cancel** are shown. When the download finishes, the update installs and the mixer restarts automatically. Your settings are kept.
 
 Use **Help → Check for updates** to check manually. Automatic checks can be disabled in Settings. If you are already up to date or an automatic check cannot connect, it stays quiet.
